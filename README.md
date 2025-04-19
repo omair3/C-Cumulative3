@@ -1,11 +1,28 @@
-**Project Overview**:  
-This project is Part 1 of a cumulative assignment to build a Minimum Viable Product (MVP) for managing the Teachers table in a School Database using ASP.NET Core Web API and MVC. It focuses on **READ** functionality, allowing users to view a list of all teachers and details of a specific teacher through API endpoints and MVC web pages.
+# C# Cumulative Assignment - Part 3
 
-**What I Learned**:  
-- How to connect a MySQL database to an ASP.NET Core application.  
-- Building and testing Web API endpoints to retrieve data.  
-- Creating dynamic MVC views for server-rendered web pages.  
-- Structuring a project with models, controllers, and views.  
-- Writing clear documentation and using descriptive variable names.  
-- Testing APIs with cURL and verifying web page functionality.  
-- Optional: Implementing error handling, search features, and basic styling.
+This project is part of the C# cumulative assignment for HTTP5126. It focuses on adding **update functionality** for teachers using ASP.NET Core MVC and MySQL.
+
+## 🔧 What the project does
+
+- Displays a list of teachers from the database
+- Shows full details of a selected teacher
+- Allows the user to **edit teacher information** using a form
+- Sends the updated data back to the server using a PUT request
+
+## 📘 What I learned
+
+- How to update records using **ASP.NET Web API (PUT)**
+- How to pass data between views and controllers
+- How to use **MySQL with ADO.NET**
+- How to separate concerns using MVC and Web API
+- How to write summary comments for better documentation
+
+## ✅ Tools Used
+
+- Visual Studio
+- ASP.NET Core MVC
+- MySQL
+- Razor Views
+- curl (for API testing)
+
+
